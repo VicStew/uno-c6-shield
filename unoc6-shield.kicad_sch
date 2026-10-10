@@ -1,0 +1,1029 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "22985bdc-e999-4da2-822c-c6c31df1d3c0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:DIN41612_02x05_AB_EvenPins"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DIN41612_02x05_AB_EvenPins"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIN41612*2x*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DIN41612_02x05_AB_EvenPins_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_a2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "a2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_a4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "a4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_a6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "a6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_a8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "a8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_a10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "a10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_b2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "b2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_b4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "b4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_b6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "b6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_b8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "b8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_b10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "b10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN41612_02x05_AB_EvenPins")
+		(at 69.85 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f84b44-3724-4a9f-8bf6-39ec0840f3c0")
+		(property "Reference" "J5"
+			(at 71.12 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIN41612_02x05_AB_EvenPins"
+			(at 71.12 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "a10"
+			(uuid "8dd2222f-4f2c-43f0-b5b1-316a42f521e6")
+		)
+		(pin "b10"
+			(uuid "849c42f6-1a49-4976-bcd3-f0896a58d23a")
+		)
+		(pin "b8"
+			(uuid "f78f4136-21ce-481a-bb8e-000c46cd465e")
+		)
+		(pin "b6"
+			(uuid "aa10da87-d8e5-4b98-bd92-3d25fe57d15f")
+		)
+		(pin "b4"
+			(uuid "590bee06-2a55-493e-86b9-3e905881ceb9")
+		)
+		(pin "a8"
+			(uuid "11ef1d3f-eb19-4237-9e2b-e375c0d96382")
+		)
+		(pin "b2"
+			(uuid "8930aeea-6d32-404d-8346-524ed65b1342")
+		)
+		(pin "a6"
+			(uuid "f89a8b5a-4965-4494-922b-0414cf64a0e6")
+		)
+		(pin "a2"
+			(uuid "594f565f-505b-491c-8f4c-31d27bb64695")
+		)
+		(pin "a4"
+			(uuid "d5761457-ea1a-4636-88d1-1f167337e6c3")
+		)
+		(instances
+			(project "unoc6-shield"
+				(path "/22985bdc-e999-4da2-822c-c6c31df1d3c0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN41612_02x05_AB_EvenPins")
+		(at 69.85 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec3a3ec-c914-446f-b3e2-6e3cec9e5ad1")
+		(property "Reference" "J4"
+			(at 71.12 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIN41612_02x05_AB_EvenPins"
+			(at 71.12 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "a10"
+			(uuid "feeccd49-4b83-4d3b-96f2-2532e289f0e0")
+		)
+		(pin "b10"
+			(uuid "aa6c172a-10b1-427c-8a3f-cfc60d184b1b")
+		)
+		(pin "b8"
+			(uuid "186c497a-66ea-4e14-869f-8bb10a6adc4a")
+		)
+		(pin "b6"
+			(uuid "f21cf6e3-f855-4cb1-a899-3244aab919bd")
+		)
+		(pin "b4"
+			(uuid "feee4678-be09-4fc4-a130-40cd8a737a66")
+		)
+		(pin "a8"
+			(uuid "db40ddad-8b02-4d90-82d8-a11df223d5c8")
+		)
+		(pin "b2"
+			(uuid "a4d742e7-c1e9-4bd2-9d19-21612cb43554")
+		)
+		(pin "a6"
+			(uuid "c4d59917-4c20-4fbb-a965-4e0b34fbe265")
+		)
+		(pin "a2"
+			(uuid "c5589763-9e0a-405b-be71-b70668a96af2")
+		)
+		(pin "a4"
+			(uuid "776788c5-c7a6-42aa-a1c3-292678dbf5c8")
+		)
+		(instances
+			(project "unoc6-shield"
+				(path "/22985bdc-e999-4da2-822c-c6c31df1d3c0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN41612_02x05_AB_EvenPins")
+		(at 36.83 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1fb958-6057-4cb8-b655-94de3dc1792c")
+		(property "Reference" "J1"
+			(at 38.1 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIN41612_02x05_AB_EvenPins"
+			(at 38.1 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "a10"
+			(uuid "d77cd269-8426-4ca8-94d6-3fe81fd8b6ca")
+		)
+		(pin "b10"
+			(uuid "56be684e-36f9-45cb-9638-df0e09ee9abc")
+		)
+		(pin "b8"
+			(uuid "9996522c-78e3-43be-83f4-3352fe41685d")
+		)
+		(pin "b6"
+			(uuid "42d09ace-d8f4-4076-8c6d-25fe5779c7b7")
+		)
+		(pin "b4"
+			(uuid "5505b90c-62c8-4c1d-bd83-2f3f646b59e4")
+		)
+		(pin "a8"
+			(uuid "bc33417e-080b-4469-9a7a-85b95517c49c")
+		)
+		(pin "b2"
+			(uuid "d2dcf7e5-e7b2-4c5c-a339-db1882a13fe0")
+		)
+		(pin "a6"
+			(uuid "db5fb2cd-8c7e-42bc-b95d-ba3edd7d444a")
+		)
+		(pin "a2"
+			(uuid "22697c84-83c0-4065-b74a-15e9383d7ffd")
+		)
+		(pin "a4"
+			(uuid "789fa894-6708-4014-9041-cb6cba73b1c1")
+		)
+		(instances
+			(project "unoc6-shield"
+				(path "/22985bdc-e999-4da2-822c-c6c31df1d3c0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN41612_02x05_AB_EvenPins")
+		(at 38.1 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "909e1420-b61d-482a-be4f-1c5cb4123128")
+		(property "Reference" "J3"
+			(at 39.37 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIN41612_02x05_AB_EvenPins"
+			(at 39.37 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "a10"
+			(uuid "d75bb80e-68c8-478a-ba8a-e13fb902e69e")
+		)
+		(pin "b10"
+			(uuid "7e403ea2-6f56-4015-accd-ff48d7c5b2b3")
+		)
+		(pin "b8"
+			(uuid "1ba35b24-ab30-42a1-ac23-e0527fb1b9ce")
+		)
+		(pin "b6"
+			(uuid "96e979fc-1462-4a96-99a1-cecee7f1ae76")
+		)
+		(pin "b4"
+			(uuid "972ba691-8bbb-4927-9c9b-cc42858bb1f8")
+		)
+		(pin "a8"
+			(uuid "4348fffc-f866-423b-8a16-1594fa1e3ffd")
+		)
+		(pin "b2"
+			(uuid "cdf572c1-4e90-489d-9c3a-ab62c5777657")
+		)
+		(pin "a6"
+			(uuid "ab1e03a6-c838-47ae-9ee2-3ae0bc7ba01e")
+		)
+		(pin "a2"
+			(uuid "03d1514b-7d33-4bc8-9802-f7285cf6058a")
+		)
+		(pin "a4"
+			(uuid "d3d9c419-449f-4203-bd33-b37e5dcb1b24")
+		)
+		(instances
+			(project "unoc6-shield"
+				(path "/22985bdc-e999-4da2-822c-c6c31df1d3c0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN41612_02x05_AB_EvenPins")
+		(at 69.85 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce0223c5-896e-472c-9340-aaf60bc2ac62")
+		(property "Reference" "J6"
+			(at 71.12 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIN41612_02x05_AB_EvenPins"
+			(at 71.12 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "a10"
+			(uuid "9f45842b-af01-4558-8031-c11f77038a8a")
+		)
+		(pin "b10"
+			(uuid "6aecf211-8515-4437-a066-2a9e22f59046")
+		)
+		(pin "b8"
+			(uuid "6ae5be5c-6d69-44e6-9eac-f9e5fc838d4e")
+		)
+		(pin "b6"
+			(uuid "ce5fd4c5-16ba-4754-a413-69d94f84d4d1")
+		)
+		(pin "b4"
+			(uuid "af6f3e84-1fc7-4386-93ae-a5f9c9be8fa2")
+		)
+		(pin "a8"
+			(uuid "946e27d5-a936-4fb8-a953-186c2b5d4734")
+		)
+		(pin "b2"
+			(uuid "a2f68b92-e4f3-456c-ae77-57dc86c716d7")
+		)
+		(pin "a6"
+			(uuid "c9a93bbc-fcae-4213-bdb5-80a48d40e7fb")
+		)
+		(pin "a2"
+			(uuid "de6daacb-c17c-44fd-a531-ebd81af4a97c")
+		)
+		(pin "a4"
+			(uuid "f96951c7-3120-4208-b336-42cb925e4a83")
+		)
+		(instances
+			(project "unoc6-shield"
+				(path "/22985bdc-e999-4da2-822c-c6c31df1d3c0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN41612_02x05_AB_EvenPins")
+		(at 36.83 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe29d6a-896c-4576-99db-3142df976719")
+		(property "Reference" "J2"
+			(at 38.1 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIN41612_02x05_AB_EvenPins"
+			(at 38.1 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "a10"
+			(uuid "3d12372d-c243-432e-b2ed-158b10f9acc2")
+		)
+		(pin "b10"
+			(uuid "3775217a-3ff7-4b1a-82f9-d48385fa067c")
+		)
+		(pin "b8"
+			(uuid "3a9cd866-a43f-44fa-9376-cbaff495d95b")
+		)
+		(pin "b6"
+			(uuid "6bddcccb-5966-46c5-86db-743ed1a44368")
+		)
+		(pin "b4"
+			(uuid "9cfad1b6-ff5b-4f30-b302-e45ee709dfe4")
+		)
+		(pin "a8"
+			(uuid "e56c5539-f865-4517-9c76-514063f534d6")
+		)
+		(pin "b2"
+			(uuid "5a3270f7-8a28-46d0-80cd-3fca386e0655")
+		)
+		(pin "a6"
+			(uuid "e02a24ff-5834-477f-b538-1c74b34d800a")
+		)
+		(pin "a2"
+			(uuid "5e468c7a-ff76-4cf9-9160-63bd6e8edbf2")
+		)
+		(pin "a4"
+			(uuid "58d0c3be-53e4-4980-9486-6c1bb84f6908")
+		)
+		(instances
+			(project "unoc6-shield"
+				(path "/22985bdc-e999-4da2-822c-c6c31df1d3c0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
